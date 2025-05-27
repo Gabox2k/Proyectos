@@ -11,7 +11,7 @@ Dificultad
 Mi mayor dificultad fue la implementacion del minimax para el gato
 
 Logro
-Que aparezcan mis quesos y los obstaculos en forma aleatoria 
+Que aparezcan los quesos y los obstaculos en forma aleatoria 
 
 Juego
 -Es un tablero de 10x10
