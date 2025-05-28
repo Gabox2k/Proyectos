@@ -27,7 +27,7 @@ while len(obstaculo) < num_obstaculo:
     obsta= (random.randint(0, filas -1), random.randint(0, columnas-1))
     
     
-    if obsta != (gato) and obsta != (raton) and  obsta not in (obstaculo):
+    if obsta != (gato) and obsta != tuple(raton) and  obsta not in (obstaculo):
         obstaculo.add(obsta)
         tablero[obsta[0]][obsta[1]] = "🧱"
 
