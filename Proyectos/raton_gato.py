@@ -71,6 +71,8 @@ def posibles_raton(posicion):
                    (posicion[0] +1, posicion[1]),
                    (posicion[0], posicion[1] -1),
                    (posicion[0], posicion[1] +1)]
+    
+    #Para que el raton no salga del tablero y pase los mueros
     return [
         movimi for movimi in movimiento
         if 0 <= movimi[0] < filas and 0 <= movimi[1] < columnas and movimi not in obstaculo
@@ -91,6 +93,7 @@ def posibles_gato(posicion):
         if 0<= movimi[0] < filas and 0 <= movimi[1] < columnas 
     ]
     else:
+        #Para que el gato no salga del tablero y pase los mueros
         return[
             movimi for movimi in movimiento
             if 0<= movimi[0] < filas and 0 <= movimi[1] < columnas and movimi not in obstaculo
