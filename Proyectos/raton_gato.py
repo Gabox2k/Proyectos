@@ -156,12 +156,13 @@ nue_columna = raton[1]
 #Para que el raton se mueva
 while True:
     mostrar_tablero()
-    print("arriba:w  abajo:s  iquz:a  dere:d  ")
+    print("arriba:w  abajo:s  iquz:a  dere:d       Escribir: Salir para salir del juego")
     tecla = input("Mover: ")
-    if  tecla == "ques":
+    #Para dejar de ejecutar el juego
+    if  tecla == "Salir":
         break
     
-    
+    #Movimientos del raton
     if tecla == "w":
         nue_fila = raton[0] - 1
         nue_columna = raton[1]
