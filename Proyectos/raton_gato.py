@@ -12,11 +12,12 @@ num_obstaculo= 5
 #Tabla vacio
 tablero = [["[]" for _ in range(columnas)] for _ in range(filas)]
 
-# Coordenadas del gato y del raton
+# Coordenadas para el gato y el raton
 gato  = (9, 3)   # 🐱
-tablero[gato[0]][gato[1]]   = "🐱"
 raton= [0 ,1]
 
+#Coordenas dentro del tablero
+tablero[gato[0]][gato[1]]   = "🐱"
 
 #Bloque 2
 quesos = set ()
