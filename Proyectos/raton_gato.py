@@ -60,8 +60,8 @@ def mostrar_tablero():
 
 
 #Distacia dx y dy
-def distancia(l,k):
-   dis = abs (l[0] - k[0]) +  abs(l[1] - k [1]) 
+def distancia(x,y):
+   dis = abs (x[0] - y[0]) +  abs(x[1] - y[1]) 
    return dis if dis != 0 else -100
     
 #Bloque 4  
