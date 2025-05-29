@@ -170,7 +170,6 @@ while True:
         nue_fila = raton[0] + 1
         nue_columna = raton[1]
     elif tecla == "a":
-        
         nue_fila = raton[0]
         nue_columna = raton[1] - 1
     elif tecla == "d":
